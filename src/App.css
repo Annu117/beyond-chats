@@ -1,0 +1,132 @@
+:root {
+  --primary-dark: #2C2638;
+  --secondary-dark: #6a5b87;
+  --muted-violet: #3C364C;
+  --dark-purple: #6c57a3;
+  --deep-gray: #2C2637;
+  --accent-color: #864cc0;
+  --success-color: #34a853;
+}
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--primary-dark);
+  color: #ffffff;
+}
+
+.step-indicator-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.step-indicator {
+  display: flex;
+  align-items: center;
+}
+
+.step-circle {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.current-step {
+  background-color: var(--accent-color);
+  color: white;
+}
+
+.completed-step {
+  background-color: var(--success-color);
+  color: white;
+}
+
+.pending-step {
+  background-color: var(--muted-violet);
+  color: white;
+}
+
+.step-line {
+  width: 40px;
+  height: 3px;
+  background: var(--deep-gray);
+  margin: 0 8px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid var(--deep-gray);
+  border-radius: 8px;
+  font-size: 14px;
+  background: var(--muted-violet);
+  color: white;
+  outline: none;
+  transition: border 0.2s;
+}
+
+.form-input::placeholder {
+  color: #ccc;
+}
+
+.form-input:focus {
+  border-color: var(--accent-color);
+}
+
+.submit-btn {
+  background: var(--accent-color);
+  color: white;
+  border-radius: 8px;
+  padding: 10px;
+  width: 100%;
+  font-weight: bold;
+  transition: all 0.3s;
+  opacity: 90%;
+
+}
+
+.submit-btn:hover {
+  background:var(--accent-color);
+  opacity: 100%;
+}
+
+.google-btn {
+  color: white;
+  border: 1px solid white;
+  border-radius: 8px;
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.google-btn:hover {
+  background: var(--dark-purple);
+}
+
+.divider {
+  text-align: center;
+  margin: 20px 0;
+  color: #ccc;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.setup-box {
+  animation: fadeIn 0.5s ease-out;
+}
