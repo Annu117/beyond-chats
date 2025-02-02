@@ -32,7 +32,9 @@
 - **User Experience:** Step indicators, animations, progress tracking.
 
 ## Live Demo
-Access the live project here: [Live Website](https://beyond-chats-beta.vercel.app/)
+Access the live project here: 
+<a href="https://beyond-chats-beta.vercel.app/" target="_blank" rel="noopener noreferrer">Live Website</a>
+
 
 ## Installation & Setup
 1. Clone the repository
