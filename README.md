@@ -1,4 +1,4 @@
-# BeyondChats Chatbot Setup UI/UX
+# Chatbot Setup
 
 ## Features Implemented
 ### 1. User Registration
