@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import OtpVerification from './sections/part1/OtpVerification';
-import OrganizationSetup from './sections/part2/OrganizationSetup';
+import OtpVerification from './sections/registration/OtpVerification';
+import OrganizationSetup from './sections/setup/OrganizationSetup';
 import { FaGoogle } from 'react-icons/fa';
-import IntegrationStep from './sections/part3/IntegrationStep';
+import IntegrationStep from './sections/integration/IntegrationStep';
 import { Check } from 'lucide-react';
 
 const UserRegistration = () => {
